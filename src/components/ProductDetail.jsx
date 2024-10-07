@@ -1,4 +1,5 @@
 import { Stack, Image, Text, VStack } from "@chakra-ui/react";
+import OptionSelector from "./OptionSelector";
 
 export default function ProductDetail() {
   return (
@@ -30,6 +31,7 @@ export default function ProductDetail() {
             quickly become a staple in your wardrobe, offering both
             functionality and effortless style.
           </Text>
+          <OptionSelector/>
         </VStack>
       </Stack>
     </div>
