@@ -36,7 +36,7 @@ responsive design.
 1 - Clone the repository :
 
 ```
-git clone https://github.com/your-username/ecommerce-product-page.git
+git clone https://github.com/parsa-sh/E-commerce-page-product-task
 ```
 
 2 - Navigate to the project directory :
