@@ -2,6 +2,7 @@ import { Stack, VStack } from "@chakra-ui/react";
 import ProductDetail from "./components/ProductDetail";
 import Review from "./components/Review";
 import './app.css'
+import AddReview from "./components/AddRewiew";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           borderTop="solid 3px black"
         >
           <Review />
+          <AddReview/>
         </Stack>
       </VStack>
     </div>
