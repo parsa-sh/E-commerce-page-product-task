@@ -1,21 +1,8 @@
 import { Badge, Box, Stack, Text, VStack } from "@chakra-ui/react";
+import { useSelector } from "react-redux";
 
 export default function Review() {
-  const people = [
-    {
-      id: 1,
-      name: "Parsa Shahsavan",
-      text: "very good product",
-      rating: 5,
-    },
-    {
-      id: 2,
-      name: "Kate Blanchet",
-      text: "not good product",
-      rating: 3,
-    },
-    { id: 3, name: "Brad Pitt", text: "very bad product", rating: 1 },
-  ];
+  const people = useSelector((state)=>state.reviews.reviews)
   return (
     <Stack direction="column" paddingTop="18px">
       <Text fontWeight="700" fontSize="28px">
